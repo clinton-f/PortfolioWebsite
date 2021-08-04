@@ -50,7 +50,7 @@ import { RiGithubLine } from "react-icons/ri";
                 <AiOutlineLinkedin  className="globalEffect1" size='1.6rem' onClick={()=> window.open("//www.linkedin.com/in/clinton-f-2656a248/", "_blank")}/>
           </SocialMediaIcon3> 
           <SocialMediaIcon4>
-                <RiGithubLine className="globalEffect1" size='1.6rem' onClick={()=> window.open("//www.github.com/Legacy7005", "_blank")}/>
+                <RiGithubLine className="globalEffect1" size='1.6rem' onClick={()=> window.open("//www.github.com/clinton-f", "_blank")}/>
           </SocialMediaIcon4>
         </SocialItems>
 

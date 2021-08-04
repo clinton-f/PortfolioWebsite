@@ -17,7 +17,7 @@ backdrop-filter: blur(5px);
 
 @media screen and (max-width: 960px){
     transition: 0.8s all ease;
-    z-index: 800;
+    z-index: 999;
     position: sticky;
 }
 `;
@@ -83,7 +83,8 @@ export const NavItem = styled.li `
 background: rgba(0, 0, 0, 0.0);
 `
 
-export const NavLinks = styled(LinkS)`
+export const NavLinks = styled(LinkS)
+`
 color: #aaaaaa;
 display: flex;
 align-items: center;
@@ -108,7 +109,8 @@ background: none;
 }
 `;
 
-export const NavBtnLink = styled(LinkR)`
+export const NavBtnLink = styled(LinkR)
+`
 background: rgba(255, 255, 255, 0.1);
 backdrop-filter: blur(5px);
 box-shadow: 0 25px 45px rgba(0,0,0,0.1);

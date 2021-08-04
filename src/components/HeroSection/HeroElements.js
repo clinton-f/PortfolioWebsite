@@ -11,7 +11,7 @@ export const HeroContainer = styled.div `
     height: 800px;
     position: relative;
     background: none;
-    z-index: 999;
+    z-index: 997;
 
     background: #101d30;
     
@@ -244,7 +244,8 @@ export const SocialMediaLine = styled.div `
 }
 `
 
-export const SocialMediaIcon1 = styled(Link)`
+export const SocialMediaIcon1 = styled(Link)
+`
     margin: 0px 30px 0px 10px;
     z-index: 999;
     color:#aaaaaa;
@@ -255,21 +256,24 @@ export const SocialMediaIcon1 = styled(Link)`
 }
 `;
 
-export const SocialMediaIcon2 = styled(Link)`
+export const SocialMediaIcon2 = styled(Link)
+`
     margin: 0px 30px 0px 10px;
     z-index: 999;
     color:#aaaaaa;
     background-color: rgba(0, 0, 0, 0);
 `;
 
-export const SocialMediaIcon3 = styled(Link)`
+export const SocialMediaIcon3 = styled(Link)
+`
     margin: 0px 30px 0px 10px;
     z-index: 999;
     color:#aaaaaa;
     background-color: rgba(0, 0, 0, 0);
 `;
 
-export const SocialMediaIcon4 = styled(Link)`
+export const SocialMediaIcon4 = styled(Link)
+`
     margin: 0px 30px 0px 10px;
     z-index: 999;
     color:#aaaaaa;

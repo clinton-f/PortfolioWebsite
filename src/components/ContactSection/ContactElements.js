@@ -21,11 +21,20 @@ color: #aaaaaa;
 margin: 0px 400px 100px 400px;
 padding-top: 215px;
 
+@media screen and (max-width: 1024px){
+    margin: 0px 150px 100px 150px;
+}
+
 @media screen and (max-width: 768px){
     margin: 0px 150px 100px 150px;
 }
+
+@media screen and (max-width: 580px){
+    margin: 0px 50px 100px 50px;
+    padding-top: 160px;
+}
 @media screen and (max-width: 480px){
-    margin: 0px 0px 0px 0px;
+    margin: 0px 50px 100px 50px;
     padding-top: 160px;
 }
 `
@@ -55,7 +64,7 @@ export const ContactP2 = styled.div `
 
 
 export const ContactButton = styled.div `
-    padding: 40px;
+    padding-top: 40px;
 `
 
 export const FooterSection = styled.div `

@@ -101,27 +101,26 @@
         border: 1px solid #af832a;
         background: rgba(255, 255, 255, 0.1);
     }
-    
-    .PicContainer {
-        height: 100%;
+    /*   .PicContainer {
+        height: 300px;
+        width: 230px;
         cursor: pointer;
-        position: relative;
         background: url('./images/Picture.jpg') no-repeat;
         background-size: cover;
         overflow: hidden;
     }
-    
+     
     .PicContainer::before {
         content: "";
         position: absolute;
-        height: 10%;
-        width: 80%;
+        height: 15%;
+        width: 97%;
         background: url('./images/Picture.jpg') no-repeat;
         background-size: cover;
         filter: sepia(100%);
         opacity: 0;
     }
-    
+   
     .PicContainer:hover:before {
         opacity: .7;
         animation: glitch 1.4s infinite linear;
@@ -156,8 +155,8 @@
     
     @media only screen and (max-width: 768px) {
         .PicContainer {
-            height: 100%;
-            width: 100%;
+            height: 300px;
+            width: 230px;
             cursor: pointer;
             position: relative;
             background: url('./images/Picture.jpg') no-repeat;
@@ -255,7 +254,7 @@
                 background-position: 12px -400px;
             }
         }
-    }
+    } */
     
     .featureProject {
         margin: 20px 20px 20px 20px;
@@ -390,4 +389,172 @@
     .sepia:hover {
         -webkit-filter: sepia(0);
         filter: sepia(0);
+    }
+    
+    @keyframes scroll {
+        0% {
+            height: 0
+        }
+        100% {
+            height: 100%;
+        }
+    }
+    
+    @keyframes type {
+        from {
+            width: 0;
+        }
+    }
+    
+    @keyframes type2 {
+        0% {
+            width: 0;
+        }
+        50% {
+            width: 0;
+        }
+        100% {
+            width: 100;
+        }
+    }
+    
+    @keyframes blink {
+        to {
+            opacity: .0;
+        }
+    }
+    
+    @keyframes scan {
+        from {
+            top: 0
+        }
+        to {
+            top: 100%
+        }
+    }
+    
+    @keyframes flicker {
+        0% {
+            opacity: 0.15795
+        }
+        5% {
+            opacity: 0.31511
+        }
+        10% {
+            opacity: 0.94554
+        }
+        15% {
+            opacity: 0.2469
+        }
+        20% {
+            opacity: 0.62031
+        }
+        25% {
+            opacity: 0.0293
+        }
+        30% {
+            opacity: 0.00899
+        }
+        35% {
+            opacity: 0.5344
+        }
+        40% {
+            opacity: 0.12778
+        }
+        45% {
+            opacity: 0.52042
+        }
+        50% {
+            opacity: 0.3823
+        }
+        55% {
+            opacity: 0.2198
+        }
+        60% {
+            opacity: 0.9383
+        }
+        65% {
+            opacity: 0.86615
+        }
+        70% {
+            opacity: 0.68695
+        }
+        75% {
+            opacity: 0.55749
+        }
+        80% {
+            opacity: 0.96984
+        }
+        85% {
+            opacity: 0.0361
+        }
+        90% {
+            opacity: 0.24467
+        }
+        95% {
+            opacity: 0.08351
+        }
+        100% {
+            opacity: 0.54813
+        }
+    }
+    /*--------------------------Terminal---------------------------*/
+    
+    @import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+    .Rtro {
+        font-size: 6vw;
+        font-family: 'Vast Shadow', cursive;
+    }
+    /* #t-output {
+        color: #fff;
+        font-family: 'VT323', Courier;
+        width: 150px;
+        height: 30px;
+    } */
+    /* #inp {
+        color: #fff;
+        font-family: 'VT323', Courier;
+        width: 150px;
+        height: 30px;
+    } */
+    
+    .console {
+        background-color: transparent;
+    }
+    
+    .console-output {
+        background: none;
+        background-color: transparent;
+        overflow: scroll;
+        overflow-x: hidden;
+        -ms-overflow-style: none;
+        /* for Internet Explorer, Edge */
+        scrollbar-width: none;
+        /* for Firefox */
+        overflow-y: scroll;
+        max-height: 48vh;
+    }
+    
+    .input-prompt {
+        color: #6b0905;
+        background-color: transparent;
+    }
+    
+    input {
+        color: #ad7c18;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        font-weight: 500;
+        font-size: 17px;
+    }
+    
+    div #userTag {
+        color: #6b0905;
+        background-color: transparent;
+    }
+    
+    div text p {
+        background: #101d3000;
+        background-color: transparent;
     }

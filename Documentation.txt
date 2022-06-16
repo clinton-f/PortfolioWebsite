@@ -1,0 +1,3 @@
+# RUN THE APP: From inside the component.
+yarn start
+

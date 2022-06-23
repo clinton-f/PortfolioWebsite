@@ -134,7 +134,8 @@ width: 200px;
 }
 `
 
-export const ArrowForward = styled(MdArrowForward)`
+export const ArrowForward = styled(MdArrowForward)
+`
 vertical-align: middle;
 background-color: rgba(0, 0, 0, 0);
 background-color: none;
@@ -144,7 +145,8 @@ background-color: none;
 }
 `
 
-export const ArrowRight = styled(MdKeyboardArrowRight)`
+export const ArrowRight = styled(MdKeyboardArrowRight)
+`
 background-color: rgba(0, 0, 0, 0);
 vertical-align: middle;
 
@@ -154,27 +156,42 @@ vertical-align: middle;
 }
 `
 export const EmailSection = styled.div `
-    left: 96%;
-    width:16px;
+    left: 91%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 315px;
+    width: 25px;
+    margin: 0px;
+
     position: fixed;
     z-index: 5;
-
+    bottom: 0px;
     @media screen and (max-width: 768px){ 
-    left: 97%;
+    left: 84%;
+    height: 290px;
     }
     @media screen and (max-width: 480px){ 
-    left: 96%;
+    left: 77.5%;
+    }
+    @media screen and (max-width: 376px){ 
+    left: 74%;
+    }
+    @media screen and (max-width: 320px){ 
+    left: 70%;
 }
 `;
 
 export const PunkStripe = styled.div `
-    left: 96%;
-    width:16px;
-    position:fixed;
-    height: 20vh;
-    bottom:0;
-    z-index: 5;
-
+    //left: 96%;
+    width: 175px;
+    height: 18px;
+    margin: 0px;
+    //position: relative;
+    //height: 15%; 
+    //bottom: 0;
+    //z-index: 5;
+    transform: rotate(90deg);
     background: repeating-linear-gradient(
     40deg,
     #aaaaaa,
@@ -182,13 +199,12 @@ export const PunkStripe = styled.div `
     rgba(0, 0, 0, 0) 4px,
     rgba(0, 0, 0, 0) 10px);
 
-    @media screen and (max-width: 768px){ 
+    /* @media screen and (max-width: 768px){ 
     left: 97%;}
 
     @media screen and (max-width: 480px){ 
-    left: 96%;
-    
-}
+    left: 96%;  
+} */
 `;
 
 export const EmailPart = styled.div `
@@ -198,19 +214,26 @@ export const EmailPart = styled.div `
     transform: rotate(90deg);
     text-decoration: none;
     cursor: pointer;
-    position: sticky;
-    margin-top: -80px;
+    margin: 0px;
+    width: 175px;
+    height: 18px;
+    //height: 130px;
+    /* position: relative;
+    position: sticky; */
+     
+    //margin-top: -15vh; */
     
 
-@media screen and (max-width: 768px){ 
-    margin-top: -130px;
+    @media screen and (max-width: 768px){ 
+    //margin-top: -130px;
     font-size: 18px;
-    padding: 0px 0px 0px 0px;}
+    //padding: 0px 0px 0px 0px;
+}
 
     @media screen and (max-width: 480px){ 
-    left: 96%;
-    margin-top: -120px;
-}
+    //left: 96%;
+    //margin-top: -120px;
+} 
 `;
 
 export const SocialItems = styled.div `
@@ -227,9 +250,9 @@ export const SocialItems = styled.div `
     @media screen and (max-width: 960px){
     bottom: 14px;
     z-index: 5;
-}
-@media screen and (max-width: 480px){
-}
+    }
+    @media screen and (max-width: 480px){
+    }
 `
 
 export const SocialMediaLine = styled.div `
@@ -241,7 +264,10 @@ export const SocialMediaLine = styled.div `
 
     @media screen and (max-width: 960px){
     width: 50px;
-}
+    }
+    @media screen and (max-width: 320px){
+        width: 8px;
+    }
 `
 
 export const SocialMediaIcon1 = styled(Link)

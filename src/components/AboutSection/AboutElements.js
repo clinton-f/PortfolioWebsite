@@ -118,13 +118,13 @@ z-index: 2; */
 
 export const ProfileImg = styled.image `
 
-background: rgba(16, 29, 48, 0.4);
+/* background: rgba(16, 29, 48, 0.4);
 box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
 border-left: 1px solid rgba(59, 82, 120, 0.452);
 border-bottom: 1px solid rgba(59, 82, 120, 0.452);
 border-right: 1px solid rgba(59, 82, 120, 0.25);
 border-top: 1px solid rgba(59, 82, 120, 0.25);
-backdrop-filter: blur(5px);
+backdrop-filter: blur(5px); */
 
 // Image container sizes
 
@@ -143,15 +143,16 @@ z-index: 998;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 5;
-    margin: 0px 20px 0px 20px; */
+    */
 
-    background: rgba(16, 29, 48, 0.4);
+    /* background: rgba(16, 29, 48, 0.4);
     box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.25);
     border-left: 1px solid rgba(59, 82, 120, 0.452);
     border-bottom: 1px solid rgba(59, 82, 120, 0.452);
     border-right: 1px solid rgba(59, 82, 120, 0.25);
     border-top: 1px solid rgba(59, 82, 120, 0.25);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px); */
+    //margin: 20px 20px 20px 20px; 
 }
   
     @media screen and (max-width: 480px){
@@ -161,7 +162,7 @@ z-index: 998;
     align-items: center;
     width: 200px;
 
-    margin: 10px;
+    //margin: 10px;
 
     /* grid-column-start: 1;
     grid-column-end: 8;

@@ -26,7 +26,7 @@ import { RiGithubLine } from "react-icons/ri";
                 <HeroP className="fourth-word">I’m a software engineer based in Clayton, NC specializing in building as well as designing outstanding websites, applications, and other tools alike to help improve, solve or add to the web's needs.
                 </HeroP>
                     <HeroBtnWrapper className="fifth-word">
-                        <Button onClick={()=> window.open("mailto:cfabian@student.fitchburgstate.edu?subject=Contacting you from your porfolio site&body=Reason for business%20goes%20here", "_blank")} onMouseEnter={onHover} onMouseLeave={onHover}
+                        <Button onClick={()=> window.open("mailto:clintonfabian7@gmail.com?subject=Contacting you from your porfolio site&body=Reason for business%20goes%20here", "_blank")} onMouseEnter={onHover} onMouseLeave={onHover}
                         primary='true' dark='true'>
                             Get In Touch {hover ? <ArrowForward/> : <ArrowRight/>}
                         </Button>
@@ -34,23 +34,23 @@ import { RiGithubLine } from "react-icons/ri";
             </HeroContent>
 
           <EmailSection className="Fade-In-Only">
-                <PunkStripe className="emailStripes1"></PunkStripe>
-                <EmailPart onClick={()=> window.open("mailto:cfabian@student.fitchburgstate.edu?subject=Contacting you from your porfolio site&body=Reason for business%20goes%20here", "_blank")}>crfSharp@gmail.com</EmailPart>
+          <EmailPart onClick={()=> window.open("mailto:clintonfabian7@gmail.com?subject=Contacting you from your porfolio site&body=Reason for business%20goes%20here", "_blank")}>clintonfabian7@gmail.com</EmailPart>
+          <PunkStripe className="emailStripes1"></PunkStripe>
           </EmailSection>
           
         <SocialItems className="moveIn-right">
           <SocialMediaLine></SocialMediaLine>
           <SocialMediaIcon1>
-                <AiOutlineCodeSandbox className="globalEffect1" size='1.6rem' onClick={()=> window.open("//www.codesandbox.io/u/cfabsoft", "_blank")}/>
+                <AiOutlineCodeSandbox className="globalEffect1" size='1.6rem' onClick={()=> window.open("https://codesandbox.io/s/clinton-f", "_blank")}/>
           </SocialMediaIcon1>
           <SocialMediaIcon2>
-                <AiOutlineCodepen className="globalEffect1" size='1.6rem' onClick={()=> window.open("//www.codepen.io/Legacy7005", "_blank")}/>
+                <AiOutlineCodepen className="globalEffect1" size='1.6rem' onClick={()=> window.open("https://codepen.io/clintonf7", "_blank")}/>
           </SocialMediaIcon2>
           <SocialMediaIcon3>
-                <AiOutlineLinkedin  className="globalEffect1" size='1.6rem' onClick={()=> window.open("//www.linkedin.com/in/clinton-f-2656a248/", "_blank")}/>
+                <AiOutlineLinkedin  className="globalEffect1" size='1.6rem' onClick={()=> window.open("https://linkedin.com/in/clinton-f", "_blank")}/>
           </SocialMediaIcon3> 
           <SocialMediaIcon4>
-                <RiGithubLine className="globalEffect1" size='1.6rem' onClick={()=> window.open("//www.github.com/clinton-f", "_blank")}/>
+                <RiGithubLine className="globalEffect1" size='1.6rem' onClick={()=> window.open("https://github.com/clinton-f", "_blank")}/>
           </SocialMediaIcon4>
         </SocialItems>
 

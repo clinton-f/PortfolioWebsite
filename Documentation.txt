@@ -1,3 +1,4 @@
 # RUN THE APP: From inside the component.
+# At the starting folder.
 yarn start
 

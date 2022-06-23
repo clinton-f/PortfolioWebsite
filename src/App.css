@@ -505,18 +505,6 @@
         font-size: 6vw;
         font-family: 'Vast Shadow', cursive;
     }
-    /* #t-output {
-        color: #fff;
-        font-family: 'VT323', Courier;
-        width: 150px;
-        height: 30px;
-    } */
-    /* #inp {
-        color: #fff;
-        font-family: 'VT323', Courier;
-        width: 150px;
-        height: 30px;
-    } */
     
     .console {
         background-color: transparent;
@@ -554,7 +542,93 @@
         background-color: transparent;
     }
     
-    div text p {
-        background: #101d3000;
+    div text {
         background-color: transparent;
+    }
+    
+    div text p h4 {
+        background-color: transparent;
+    }
+    
+    div text p {
+        background-color: transparent;
+    }
+    
+    div text p a {
+        background-color: transparent;
+    }
+    
+    div text p ul {
+        display: inline-block;
+        list-style-type: none;
+        background-color: transparent;
+    }
+    
+    div text p ul li {
+        background-color: transparent;
+        justify-content: end;
+        float: left;
+        width: 175px;
+    }
+    
+    span {
+        background-color: transparent;
+    }
+    
+    .Grid {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+    
+    @media (max-width: 1000px) {
+        .Grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            max-width: fit-content;
+            /* margin: auto;
+        padding: 1.5rem; */
+        }
+    }
+    /* .AboutContainer:before {
+        animation: flicker 2.1s infinite;
+        background: linear-gradient(#101d30 50%, rgba(16, 16, 16, 0.2) 50%), linear-gradient(90deg, rgba(77, 154, 255, 0.03), rgba(87, 255, 163, 0.02), rgba(0, 174, 255, 0.03));
+        background-size: 100% 3px, 6px 100%;
+        content: "";
+        display: block;
+        pointer-events: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+    } */
+    /* .AboutContainer:after {
+        animation: flicker 2.33s infinite;
+        background: rgba(16, 29, 48, 0.849);
+        content: "";
+        display: block;
+        pointer-events: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+    } */
+    
+    .pointer {
+        cursor: pointer;
+    }
+    
+    .pointer:hover {
+        color: #ad7c18;
+    }
+    
+    a.pointer:active {
+        color: #6b0905;
+    }
+    
+    .Fade-In-Only {
+        background: transparent;
     }

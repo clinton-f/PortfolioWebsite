@@ -20,7 +20,7 @@ const Console = () => {
             <MapConsoleOutput consoleOutput={consoleOutput} />
             <div className="input-prompt">
                 <Prompt/>
-                <input type="text" ref={inputText} onKeyPress={({target: {value}, key}) => onEnter(value, key)} />
+                <input type="text" ref={inputText} onKeyPress={({target: {value}, key}) => onEnter(value.toLowerCase().trim(), key)} />
             </div>
         </section>
     );

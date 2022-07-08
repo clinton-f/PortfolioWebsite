@@ -22,7 +22,7 @@ import { RiGithubLine } from "react-icons/ri";
             <HeroContent>
                 <HeroP className="first-word">Hi, my name is</HeroP>
                 <HeroH1 className="second-word">Clinton Fabian</HeroH1>
-                <HeroH2 className="third-word">I build things for the web.</HeroH2>
+                <HeroH2 className="third-word">I solve problems with code.</HeroH2>
                 <HeroP className="fourth-word">I’m a software engineer based in Clayton, NC specializing in building as well as designing outstanding websites, applications, and other tools alike to help improve, solve or add to the web's needs.
                 </HeroP>
                     <HeroBtnWrapper className="fifth-word">

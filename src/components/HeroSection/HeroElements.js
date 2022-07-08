@@ -8,7 +8,7 @@ export const HeroContainer = styled.div `
     align-items: center;
     padding: 0px 0px 50px 0px;
     margin: 0px 50px 0px 50px;
-    height: 800px;
+    height: 100vh;
     position: relative;
     background: none;
     z-index: 997;
@@ -50,6 +50,7 @@ padding: 8px 24px;
 display: flex;
 flex-direction: column;
 align-items: left;
+margin-top: 10vh;
 margin-bottom: 150px;
 background: none;
 `

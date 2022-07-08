@@ -4,7 +4,7 @@ export const AboutSectionContainer = styled.div `
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    height: 100vh;
     background: #101d30; 
     z-index: 998;
 

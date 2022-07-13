@@ -76,6 +76,13 @@
         animation: loadInRight 0.8s ease 1.60s forwards;
     }
     
+    #globalEFX {
+        margin: 0px 30px 0px 10px;
+        z-index: 999;
+        color: #aaaaaa;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    
     .globalEffect1 {
         background-color: rgba(0, 0, 0, 0);
     }
@@ -130,6 +137,7 @@
     .languagesUsed {
         margin: 20px 20px 20px 20px;
         background: none;
+        display: flex;
     }
     
     .projectFile {

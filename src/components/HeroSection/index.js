@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { Button } from '../ButtonElement';
-import {HeroContainer, HeroContent, HeroBg, HeroH1, HeroH2, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight, EmailSection, PunkStripe, EmailPart, SocialMediaLine, SocialMediaIcon1, SocialMediaIcon2, SocialMediaIcon3, SocialMediaIcon4, SocialItems} from './HeroElements';
+import {HeroContainer, HeroContent, HeroH1, HeroH2, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight, EmailSection, PunkStripe, EmailPart, SocialMediaLine, SocialItems} from './HeroElements';
 
 import { AiOutlineCodeSandbox } from "react-icons/ai";
 import { AiOutlineCodepen } from "react-icons/ai";
@@ -16,8 +16,6 @@ import { RiGithubLine } from "react-icons/ri";
 
      return (
         <HeroContainer id='Home'>
-            <HeroBg>
-            </HeroBg>   
 
             <HeroContent>
                 <HeroP className="first-word">Hi, my name is</HeroP>
@@ -28,7 +26,7 @@ import { RiGithubLine } from "react-icons/ri";
                     <HeroBtnWrapper className="fifth-word">
                         <Button onClick={()=> window.open("mailto:clintonfabian7@gmail.com?subject=Contacting you from your porfolio site&body=Reason for business%20goes%20here", "_blank")} onMouseEnter={onHover} onMouseLeave={onHover}
                         primary='true' dark='true'>
-                            Get In Touch {hover ? <ArrowForward/> : <ArrowRight/>}
+                            Get In Touch {hover ? <ArrowForward  style={{background: 'none', verticalAlign: 'middle'}}/> : <ArrowRight  style={{background: 'none', verticalAlign: 'middle'}}/>}
                         </Button>
                     </HeroBtnWrapper>
             </HeroContent>
@@ -40,18 +38,14 @@ import { RiGithubLine } from "react-icons/ri";
           
         <SocialItems className="moveIn-right">
           <SocialMediaLine></SocialMediaLine>
-          <SocialMediaIcon1>
-                <AiOutlineCodeSandbox className="globalEffect1" size='1.6rem' onClick={()=> window.open("https://codesandbox.io/s/clinton-f", "_blank")}/>
-          </SocialMediaIcon1>
-          <SocialMediaIcon2>
-                <AiOutlineCodepen className="globalEffect1" size='1.6rem' onClick={()=> window.open("https://codepen.io/clintonf7", "_blank")}/>
-          </SocialMediaIcon2>
-          <SocialMediaIcon3>
-                <AiOutlineLinkedin  className="globalEffect1" size='1.6rem' onClick={()=> window.open("https://linkedin.com/in/clinton-f", "_blank")}/>
-          </SocialMediaIcon3> 
-          <SocialMediaIcon4>
-                <RiGithubLine className="globalEffect1" size='1.6rem' onClick={()=> window.open("https://github.com/clinton-f", "_blank")}/>
-          </SocialMediaIcon4>
+                <AiOutlineCodeSandbox className="globalEffect1" id="globalEFX" alt="Clinton's codesandbox" size='1.6rem' onClick={()=> window.open("https://codesandbox.io/s/clinton-f", "_blank")}/>
+
+                <AiOutlineCodepen className="globalEffect1" id="globalEFX" alt="Clinton's codepen" size='1.6rem' onClick={()=> window.open("https://codepen.io/clintonf7", "_blank")}/>
+
+                <AiOutlineLinkedin  className="globalEffect1" id="globalEFX" alt="Clinton's linkedin" size='1.6rem' onClick={()=> window.open("https://linkedin.com/in/clinton-f", "_blank")}/>
+
+                <RiGithubLine className="globalEffect1" id="globalEFX" alt="Clinton's github" size='1.6rem' onClick={()=> window.open("https://github.com/clinton-f", "_blank")}/>
+
         </SocialItems>
 
         </HeroContainer>

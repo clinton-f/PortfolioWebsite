@@ -27,7 +27,7 @@ const domRef = useRef();
                 <ContactP2>I am currently open and looking for new opportunity offers, but if you have questions or just want to say hello👋, my inbox is always open so feel free to send me an email and I’ll get back to you.</ContactP2>
             
                 <ContactButton>
-                    <Button onClick={()=> window.open("mailto:cfabian@student.fitchburgstate.edu?subject=Contacting you from your porfolio site&body=Reason for business%20goes%20here", "_blank")}>   
+                    <Button onClick={()=> window.open("mailto:clintonfabian7@gmail.com?subject=Contacting you from your porfolio site&body=Reason for business%20goes%20here", "_blank")}>   
                     Get In Touch
                     </Button>
                 </ContactButton>

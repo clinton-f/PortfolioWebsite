@@ -11,8 +11,7 @@ const Console = () => {
     React.useEffect(() => {
         inputText.current.value = '';
 
-        //This makes the focus on the input field but we can't use this at the loading of the page
-        //inputText.current.focus();
+   
     });
 
     return (

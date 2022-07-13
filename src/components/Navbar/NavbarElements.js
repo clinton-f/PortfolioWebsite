@@ -35,7 +35,8 @@ background: rgba(0, 0, 0, 0);
 
 //This is a link from "react scroll" for linking withing the same page.
 //Router for linking outside of the page, so here we'll use this to importing both.
-export const NavLogo = styled(LinkR)`
+export const NavLogo = styled(LinkR)
+`
 color: #ad7c18;
 background: #6b0905;
 border: 1px solid #ad7c18;
@@ -100,12 +101,12 @@ background: rgba(0, 0, 0, 0.0);
 `;
 
 export const NavBtn = styled.nav `
-display: flex;
-align-items: center;
-background: none;
+/* display: flex;
+align-items: center; */
+//background: none;
 
 @media screen and (max-width: 768px){
-    display: none;
+  //  display: none;
 }
 `;
 
@@ -116,6 +117,14 @@ backdrop-filter: blur(5px);
 box-shadow: 0 25px 45px rgba(0,0,0,0.1);
 border: 1px solid#ad7c18;
 
+/* -------------------------------------------------- */
+display: flex;
+align-items: center;
+
+@media screen and (max-width: 768px){
+    display: none;
+}
+/* -------------------------------------------------- */
 
 white-space: nowrap;
 padding: 10px 22px;

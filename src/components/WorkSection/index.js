@@ -24,14 +24,16 @@ const WorkSection = () => {
                 <AppTitle className="appTitle"  style={{color: '#26693a'}}>Cobblestone Place</AppTitle>
                 <AppDescription className="appDescription" >C.P. is a Full-Stack Angular application that lets neighbors create events, digital business cards, and post gigs, as well as edit the front page content and more, built using tech like JWT, MongoDB, and TS.</AppDescription>
                 <LanguagesUsed className="languagesUsed" >
+                <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://heroku.com" target="_blank">Heroku</a>
+                <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://app.netlify.com/" target="_blank">Netlify</a>
                 <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://expressjs.com/" target="_blank">Express.js</a>
                 <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://nodejs.org/en/" target="_blank">Node.js</a>
                 <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://mongoosejs.com/" target="_blank">Mongoose</a>
-                <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://www.npmjs.com" target="_blank">npm</a>
-                <a style={{background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://stripe.com/" target="_blank">Stripe</a>
+                {/* <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://www.npmjs.com" target="_blank">npm</a>
+                <a style={{background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://stripe.com/" target="_blank">Stripe</a> */}
                 </LanguagesUsed>
-                <AiOutlineLink style={{margin: '20px'}} className="globalEffect1" size='1.6rem' onClick={()=> window.open("https://codesandbox.io/s/clinton-f", "_blank")} />
-                <RiGithubLine style={{margin: '20px 20px 20px 0px'}} className="globalEffect1" size='1.6rem' onClick={()=> window.open("https://github.com/clinton-f", "_blank")}/>
+                <AiOutlineLink style={{margin: '20px'}} className="globalEffect1" size='1.6rem' onClick={()=> window.open("https://cobblestone-place.netlify.app/", "_blank")} />
+                <RiGithubLine style={{margin: '20px 20px 20px 0px'}} className="globalEffect1" size='1.6rem' onClick={()=> window.open("https://github.com/clinton-f/Community-Website", "_blank")}/>
             </WorkTxt1>
 
             </WorkSample1 >

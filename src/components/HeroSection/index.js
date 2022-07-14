@@ -38,7 +38,7 @@ import { RiGithubLine } from "react-icons/ri";
           
         <SocialItems className="moveIn-right">
           <SocialMediaLine></SocialMediaLine>
-                <AiOutlineCodeSandbox className="globalEffect1" id="globalEFX" alt="Clinton's codesandbox" size='1.6rem' onClick={()=> window.open("https://codesandbox.io/s/clinton-f", "_blank")}/>
+                <AiOutlineCodeSandbox className="globalEffect1" id="globalEFX" alt="Clinton's codesandbox" size='1.6rem' onClick={()=> window.open("https://codesandbox.io/u/clinton-f", "_blank")}/>
 
                 <AiOutlineCodepen className="globalEffect1" id="globalEFX" alt="Clinton's codepen" size='1.6rem' onClick={()=> window.open("https://codepen.io/clintonf7", "_blank")}/>
 

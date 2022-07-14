@@ -1,5 +1,5 @@
 import React from 'react';
-import {AboutBackgroundText, AboutSectionContainer, AboutWrapper, AboutTitle, AboutRow1, Column1, TextWrapper1, ProfileImg, Technologies,Rtro} from './AboutElements';
+import {AboutBackgroundText, AboutSectionContainer, AboutWrapper, AboutRow1, Column1, Rtro} from './AboutElements';
 //import Picture from '../../images/Picture.jpg';
 import Console from './Console.js';
 

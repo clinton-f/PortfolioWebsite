@@ -58,10 +58,10 @@ const commands = {
         <br></br>
         <p><h4>SOCIAL NETWORKS:</h4></p>
         <br></br>
-        <p>linkedin: <nbsp></nbsp>---------<nbsp></nbsp> <a className="pointer" onClick={()=> window.open("https://linkedin.com/in/clinton-f", "_blank")}>linkedin/clinton</a></p>
-        <p>github: <nbsp></nbsp>---------<nbsp></nbsp> <a className="pointer" onClick={()=> window.open("https://github.com/clinton-f", "_blank")}>github/clinton</a></p>
-        <p>codepen: <nbsp></nbsp>---------<nbsp></nbsp> <a className="pointer" onClick={()=> window.open("https://codepen.io/clintonf7", "_blank")}>codepen/clinton</a></p>
-        <p>codesandbox: <nbsp></nbsp>---------<nbsp></nbsp> <a className="pointer" onClick={()=> window.open("https://codesandbox.io/s/clinton-f", "_blank")}>codesandbox/clinton</a></p>
+        <p>linkedin: <nbsp></nbsp>---------<nbsp></nbsp> <a className="pointer" style={{textDecoration: 'none', color: '#aaa'}} href="https://linkedin.com/in/clinton-f" target="_blank" rel='noopener noreferrer'>linkedin/clinton</a></p>
+        <p>github: <nbsp></nbsp>---------<nbsp></nbsp> <a className="pointer" style={{textDecoration: 'none', color: '#aaa'}} href="https://github.com/clinton-f" target="_blank" rel='noopener noreferrer'>github/clinton</a></p>
+        <p>codepen: <nbsp></nbsp>---------<nbsp></nbsp> <a className="pointer" style={{textDecoration: 'none', color: '#aaa'}} href="https://codepen.io/clintonf7" target="_blank" rel='noopener noreferrer'>codepen/clinton</a></p>
+        <p>codesandbox: <nbsp></nbsp>---------<nbsp></nbsp> <a className="pointer" style={{textDecoration: 'none', color: '#aaa'}} href="https://codesandbox.io/s/clinton-f" target="_blank" rel='noopener noreferrer'>codesandbox/clinton</a></p>
         <br></br>
         <br></br>
         </text>
@@ -84,7 +84,7 @@ const commands = {
         <text> 
         <br></br>
         <br></br>
-        <p>Resume: <nbsp></nbsp>--------<nbsp></nbsp> <a onClick={()=> window.open("https://codepen.io/pen/", "_blank")}>👉📃</a></p>
+        <p>Resume: <nbsp></nbsp>--------<nbsp></nbsp>  <a style={{textDecoration: 'none', color: '#aaa'}} href="https://www.dropbox.com/s/chdjpv7wl766pnr/resume.docx?dl=0" target="_blank" rel='noopener noreferrer'>👉📃</a></p>
         <br></br>
         <br></br>
         </text>
@@ -101,21 +101,11 @@ const commands = {
         <p>soft   --------   What are his soft skills?</p>
         <p>social   --------   Display social networks.</p>
         <p>recent   --------   Technologies he has been working with recently.</p>
-        {/* <p>clear   --------   Clear the screen.</p> 
-        <p>history   --------   View past entered commands.</p>*/}
         <p>help   --------   Display terminal available commands.</p>
         <br></br>
         <br></br>
         </text>
     ],
-
-//     hist: {
-// },
-      
-
-//         </p>
-//         </text>]
-        
 
 }
 const history = [];
@@ -133,11 +123,6 @@ const UseOnEnter = () => {
                 consoleOutput.concat(newConsoleLine)
             );
         }
-        // else if (key === "Enter" && value === "clear") {
-        //     return updateConsoleOutput (
-        //         consoleOutput.concat("")
-        //     )
-        // }
     };
 
 

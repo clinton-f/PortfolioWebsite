@@ -24,13 +24,11 @@ const WorkSection = () => {
                 <AppTitle className="appTitle"  style={{color: '#26693a'}}>Cobblestone Place</AppTitle>
                 <AppDescription className="appDescription" >C.P. is a Full-Stack Angular application that lets neighbors create events, digital business cards, and post gigs, as well as edit the front page content and more, built using tech like JWT, MongoDB, and TS.</AppDescription>
                 <LanguagesUsed className="languagesUsed" >
-                <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://heroku.com" target="_blank">Heroku</a>
-                <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://app.netlify.com/" target="_blank">Netlify</a>
-                <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://expressjs.com/" target="_blank">Express.js</a>
-                <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://nodejs.org/en/" target="_blank">Node.js</a>
-                <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://mongoosejs.com/" target="_blank">Mongoose</a>
-                {/* <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://www.npmjs.com" target="_blank">npm</a>
-                <a style={{background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://stripe.com/" target="_blank">Stripe</a> */}
+                <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://heroku.com" target="_blank" rel='noopener noreferrer'>Heroku</a>
+                <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://app.netlify.com/" target="_blank" rel='noopener noreferrer'>Netlify</a>
+                <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://expressjs.com/" target="_blank" rel='noopener noreferrer'>Express.js</a>
+                <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://nodejs.org/en/" target="_blank" rel='noopener noreferrer'>Node.js</a>
+                <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://mongoosejs.com/" target="_blank" rel='noopener noreferrer'>Mongoose</a>
                 </LanguagesUsed>
                 <AiOutlineLink style={{margin: '20px'}} className="globalEffect1" size='1.6rem' onClick={()=> window.open("https://cobblestone-place.netlify.app/", "_blank")} />
                 <RiGithubLine style={{margin: '20px 20px 20px 0px'}} className="globalEffect1" size='1.6rem' onClick={()=> window.open("https://github.com/clinton-f/Community-Website", "_blank")}/>
@@ -49,9 +47,9 @@ const WorkSection = () => {
                     <AppTitle className="appTitle" style={{color: '#6b0905'}}>HR Management</AppTitle>
                     <AppDescription className="appDescription">This Python multi-page application allows the user in an HR position to keep track of employees, add, remove, pay, or edit their information.It was built using Python bags, sets, stacks, and more.</AppDescription>
                     <LanguagesUsed className="languagesUsed">
-                        <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://streamlit.io/" target="_blank">Streamlit</a>
-                        <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://pandas.pydata.org/" target="_blank">Pandas</a>
-                        <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://numpy.org/" target="_blank">Numpy</a>
+                        <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://streamlit.io/" target="_blank" rel='noopener noreferrer'>Streamlit</a>
+                        <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://pandas.pydata.org/" target="_blank" rel='noopener noreferrer'>Pandas</a>
+                        <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://numpy.org/" target="_blank" rel='noopener noreferrer'>Numpy</a>
                     </LanguagesUsed>
                     <AiOutlineLink style={{margin: '20px'}} className="globalEffect1" size='1.6rem' onClick={()=> window.open("https://clinton-f-python-hr-system-app-k15f3u.streamlitapp.com/", "_blank")} />
                     <RiGithubLine style={{margin: '20px 20px 20px 0px'}} className="globalEffect1" size='1.6rem' onClick={()=> window.open("https://github.com/clinton-f/Python-HR-System", "_blank")}/>
@@ -70,10 +68,10 @@ const WorkSection = () => {
                 <AppTitle className="appTitle"  style={{color: '#FF2625'}}>Fitness Directory</AppTitle>
                 <AppDescription className="appDescription" >Fitness Directory is a React.js website I built using a workout API, JavaScript, and more where you can search for more than 1000 workouts you can do both at home or at the gym.</AppDescription>
                 <LanguagesUsed className="languagesUsed" >
-                <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb/details" target="_blank">ExerciseDB-API</a>
-                <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://github.com/heroku" target="_blank">Heroku</a>
-                <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://www.npmjs.com/package/react-router-dom" target="_blank">React-Router-DOM</a>
-                <a style={{ background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://mui.com/" target="_blank">MUI</a>
+                <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb/details" target="_blank" rel='noopener noreferrer'>ExerciseDB-API</a>
+                <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://github.com/heroku" target="_blank" rel='noopener noreferrer'>Heroku</a>
+                <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://www.npmjs.com/package/react-router-dom" target="_blank" rel='noopener noreferrer'>React-Router-DOM</a>
+                <a style={{ background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://mui.com/" target="_blank" rel='noopener noreferrer'>MUI</a>
                 </LanguagesUsed>
                 <AiOutlineLink style={{margin: '20px'}} className="globalEffect1" size='1.6rem' onClick={()=> window.open("https://fitnessdirectory.netlify.app", "_blank")} />
                 <RiGithubLine style={{margin: '20px 20px 20px 0px'}} className="globalEffect1" size='1.6rem' onClick={()=> window.open("https://github.com/clinton-f/react_fitness_directory_website", "_blank")}/>

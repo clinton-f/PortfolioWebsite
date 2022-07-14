@@ -1,8 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {BsGrid3X3Gap} from 'react-icons/bs';
 import {animateScroll as scroll} from 'react-scroll';
-import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from './NavbarElements';
-import resume from '../../resume/resume.docx';
+import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtnLink} from './NavbarElements';
 
 
 
@@ -47,12 +46,7 @@ const toggleHome = () => {
                           <NavLinks className="globalEffect1" to="Contact" smooth={true} duration={600} /*spy={true}*/ exact="true" offset={-1}>CONTACT</NavLinks>
                       </NavItem>
                   </NavMenu>
-                  {/* <NavBtn>
-                    <NavBtnLink  onClick={()=> window.open("", "_blank")}>RESUME</NavBtnLink>
-                  </NavBtn> */}
-                  {/* onClick={()=> window.open("https://codesandbox.io/s/clinton-f", "_blank")} */}
-                  <NavBtnLink style={{margin: '20px'}} onClick={()=> window.open("https://codesandbox.io/s/clinton-f", "_blank")}>RESUME</NavBtnLink>
-
+                  <NavBtnLink to='/' style={{margin: '20px'}} onClick={()=> window.open("https://www.dropbox.com/s/jz9uskazb6tqynq/resume.docx?dl=0", "_blank")}>RESUME</NavBtnLink>
               </NavbarContainer>
           </Nav>
         </>

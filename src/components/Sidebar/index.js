@@ -14,7 +14,7 @@ const Sidebar = ({isOpen, toggle}) => {
                 <SidebarLink to="Tech" smooth={true} duration={700} spy={true} exact='true' offset={10} onClick={toggle}>TECH</SidebarLink>
                 <SidebarLink to="Contact" smooth={true} duration={700} spy={true} exact='true' offset={10} onClick={toggle}>CONTACT</SidebarLink>
                 <NavBtnLinkWrap>
-                <NavBtnLinkSmall to="/resume" onClick={toggle}>RESUME</NavBtnLinkSmall>
+                <NavBtnLinkSmall to='/' onClick={()=> window.open("https://www.dropbox.com/s/jz9uskazb6tqynq/resume.docx?dl=0", "_blank")}>RESUME</NavBtnLinkSmall>
                 </NavBtnLinkWrap>
             </SidebarMenu> 
         </SidebarWrapper>

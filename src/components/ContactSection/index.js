@@ -11,10 +11,11 @@ const domRef = useRef();
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => entry.isIntersecting && setVisible(true));
     });
+    let refElement = null;
+    refElement = domRef.current;
+    observer.observe(refElement);
 
-    observer.observe(domRef.current);
-
-    return () => observer.unobserve(domRef.current);
+    return () => observer.unobserve(refElement);
   }, []);
 
     return (

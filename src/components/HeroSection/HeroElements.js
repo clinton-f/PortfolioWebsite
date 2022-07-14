@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md';
-//import { Link } from 'react-router-dom';
 
 export const HeroContainer = styled.div `
     display: flex;
@@ -153,6 +152,12 @@ export const EmailSection = styled.div `
     }
     @media screen and (max-width: 480px){ 
     right: 1.5rem;
+    }
+    @media screen and (max-width: 480px){ 
+    right: 1.5rem;
+    }
+    @media screen and (max-width: 422px){ 
+    right: 2.5rem;
     
     }
     @media screen and (max-width: 376px){ 

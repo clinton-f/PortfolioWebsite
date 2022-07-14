@@ -12,7 +12,6 @@ export const AboutSectionContainer = styled.div `
 }
   
     @media screen and (max-width: 480px){
-        margin-top: 100px;
 }
 `
 export const AboutBackgroundText = styled.div `
@@ -54,8 +53,6 @@ export const AboutWrapper = styled.div `
 }
   
     @media screen and (max-width: 480px){
-
-    height: 700px;
     width: 80vw;
 }
 `

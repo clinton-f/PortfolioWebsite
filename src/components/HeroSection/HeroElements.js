@@ -31,7 +31,6 @@ export const HeroContainer = styled.div `
 
 export const HeroContent = styled.div `
 position: absolute;
-//padding: 0rem 2rem 0px 2rem;
 margin-left: 5%;
 margin-right: 5%;
 display: flex;
@@ -42,8 +41,17 @@ margin-bottom: 100px;
 background: none;
 
     @media screen and (max-width: 768px){
-        padding: 2rem 0rem 0px 0rem;
+        //padding: 2rem 0rem 2px 0rem;
     }
+    @media screen and (max-width: 600px){
+        margin-bottom: 150px;
+    }
+    @media screen and (max-width: 480px){
+        margin-bottom: 150px;
+    }
+    @media screen and (max-width: 280px){
+    margin-top: 50px;
+}
 `
 export const HeroH1 = styled.h1 `
 color: #e4ddc0;
@@ -60,6 +68,10 @@ z-index: 6;
 @media screen and (max-width: 480px){
     font-size: 32px;
     text-align: center;
+}
+
+@media screen and (max-width: 280px){
+    font-size: 24px;
 }
 `
 
@@ -79,6 +91,9 @@ z-index: 6;
     font-size: 32px;
     text-align: center;
 }
+@media screen and (max-width: 280px){
+    font-size: 24px;
+}
 `
 
 export const HeroP = styled.p `
@@ -97,10 +112,31 @@ z-index: 6;
 }
 
 @media screen and (max-width: 480px){
-    font-size: 18px;
+    font-size: 23px;
     text-align: center;
-    margin-bottom: 30px;
 }
+
+@media screen and (max-width: 400px){
+    font-size: 21px;
+    text-align: center;
+}
+
+@media screen and (max-width: 365px){
+    font-size: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 335px){
+    font-size: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 280px){
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
 `
 
 export const HeroBtnWrapper = styled.div `
@@ -122,6 +158,11 @@ width: 200px;
 @media screen and (max-width: 480px){
     font-size: 18px;
     align-self: center;
+}
+
+@media screen and (max-width: 280px){
+    margin-bottom: 0px;
+    margin-top: 15px;
 }
 `
 
@@ -169,6 +210,7 @@ export const PunkStripe = styled.div `
     
     width: 20px;
     bottom: 0;
+    background-color: transparent;
     
     transform: rotate(0deg);
     background: repeating-linear-gradient(

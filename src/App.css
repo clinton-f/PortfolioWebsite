@@ -287,12 +287,12 @@
     @media screen and (max-width: 768px) {
         .sepia,
         .sepia2 {
-            width: 100%;
-            height: 100%;
-            opacity: 80%;
+            opacity: 60%;
             object-fit: cover;
-            -webkit-filter: grayscale(0);
-            filter: grayscale(0);
+        }
+        .sepia:hover,
+        .sepia2:hover {
+            opacity: 100%;
         }
     }
     

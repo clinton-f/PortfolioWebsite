@@ -17,8 +17,7 @@ const AboutSection = () => {
         <AboutWrapper className="AboutContainer" style={{marginTop: '25px'}}>
             <AboutRow1 className="DescContainer">
                 <Rtro className="Rtro">ABOUT trm.</Rtro>
-                <p>clintonfabian7@gmail.com <br></br>
-                Portfolio v1.0.0 in REACT: Type 👉help for available commands.</p>
+                <p style={{flex: 1, flexWrap: 'wrap'}}>Portfolio v1.0.0 in REACT: Type 👉help for available commands.</p>
         </AboutRow1>
 
         <Column1 className="Technologies">

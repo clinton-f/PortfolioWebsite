@@ -23,7 +23,7 @@ const WorkSection = () => {
                 <FeatureProject className="featureProject" >Featured Project</FeatureProject>
                 <AppTitle className="appTitle"  style={{color: '#26693a'}}>Cobblestone Place</AppTitle>
                 <AppDescription className="appDescription" >C.P. is a Full-Stack Angular application that lets neighbors create events, digital business cards, and post gigs, as well as edit the front page content and more, built using tech like JWT, MongoDB, and TS.</AppDescription>
-                <LanguagesUsed className="languagesUsed" >
+                <LanguagesUsed className="languagesUsed" style={{flex: 1, flexWrap: 'wrap'}}>
                 <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://heroku.com" target="_blank" rel='noopener noreferrer'>Heroku</a>
                 <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://app.netlify.com/" target="_blank" rel='noopener noreferrer'>Netlify</a>
                 <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://expressjs.com/" target="_blank" rel='noopener noreferrer'>Express.js</a>
@@ -46,7 +46,7 @@ const WorkSection = () => {
                     <FeatureProject className="featureProject">Featured Project</FeatureProject>
                     <AppTitle className="appTitle" style={{color: '#6b0905'}}>HR Management</AppTitle>
                     <AppDescription className="appDescription">This Python multi-page application allows the user in an HR position to keep track of employees, add, remove, pay, or edit their information.It was built using Python bags, sets, stacks, and more.</AppDescription>
-                    <LanguagesUsed className="languagesUsed">
+                    <LanguagesUsed className="languagesUsed" style={{flex: 1, flexWrap: 'wrap'}}>
                         <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://streamlit.io/" target="_blank" rel='noopener noreferrer'>Streamlit</a>
                         <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://pandas.pydata.org/" target="_blank" rel='noopener noreferrer'>Pandas</a>
                         <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://numpy.org/" target="_blank" rel='noopener noreferrer'>Numpy</a>
@@ -67,7 +67,7 @@ const WorkSection = () => {
                 <FeatureProject className="featureProject" >Featured Project</FeatureProject>
                 <AppTitle className="appTitle"  style={{color: '#FF2625'}}>Fitness Directory</AppTitle>
                 <AppDescription className="appDescription" >Fitness Directory is a React.js website I built using a workout API, JavaScript, and more where you can search for more than 1000 workouts you can do both at home or at the gym.</AppDescription>
-                <LanguagesUsed className="languagesUsed" >
+                <LanguagesUsed className="languagesUsed" style={{flex: 1, flexWrap: 'wrap'}}>
                 <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb/details" target="_blank" rel='noopener noreferrer'>ExerciseDB-API</a>
                 <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://github.com/heroku" target="_blank" rel='noopener noreferrer'>Heroku</a>
                 <a style={{marginRight: '20px', background: 'transparent', color: '#ad7c18', textDecorationLine: 'none'}} href="https://www.npmjs.com/package/react-router-dom" target="_blank" rel='noopener noreferrer'>React-Router-DOM</a>

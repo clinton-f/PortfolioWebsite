@@ -151,16 +151,14 @@ export const EmailSection = styled.div `
 
     }
     @media screen and (max-width: 480px){ 
-    right: 1.5rem;
-    }
-    @media screen and (max-width: 480px){ 
-    right: 1.5rem;
+    right: 1rem;
     }
     @media screen and (max-width: 422px){ 
-    right: 2.5rem;
+    right: .7rem;
     
     }
-    @media screen and (max-width: 376px){ 
+    @media screen and (max-width: 388px){ 
+    right: .5rem;
     }
     @media screen and (max-width: 320px){ 
 }

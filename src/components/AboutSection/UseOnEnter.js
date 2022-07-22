@@ -84,7 +84,7 @@ const commands = {
         <text> 
         <br></br>
         <br></br>
-        <p>Resume: <nbsp></nbsp>--------<nbsp></nbsp>  <a style={{textDecoration: 'none', color: '#aaa'}} href="https://www.dropbox.com/s/chdjpv7wl766pnr/resume.docx?dl=0" target="_blank" rel='noopener noreferrer'>👉📃</a></p>
+        <p>Resume: <nbsp></nbsp>--------<nbsp></nbsp>  <a style={{textDecoration: 'none', color: '#aaa'}} href="https://www.dropbox.com/s/n2j9yirp9moedql/resume.docx?dl=0" target="_blank" rel='noopener noreferrer'>👉📃</a></p>
         <br></br>
         <br></br>
         </text>

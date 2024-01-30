@@ -46,7 +46,7 @@ const toggleHome = () => {
                           <NavLinks className="globalEffect1" to="Contact" smooth={true} duration={600} /*spy={true}*/ exact="true" offset={-1}>CONTACT</NavLinks>
                       </NavItem>
                   </NavMenu>
-                  <NavBtnLink to='/' style={{margin: '20px'}} onClick={()=> window.open("https://www.dropbox.com/s/u1kcvgnmcc93hya/resume.docx?dl=0", "_blank")}>RESUME</NavBtnLink>
+                  <NavBtnLink to='/' style={{margin: '20px'}} onClick={()=> window.open("https://www.dropbox.com/scl/fo/1aq04akq76yas7llhmwvj/h?rlkey=6cwtjx2lx7dzl77snd9ekx0ne&dl=0", "_blank")}>RESUME</NavBtnLink>
               </NavbarContainer>
           </Nav>
         </>
